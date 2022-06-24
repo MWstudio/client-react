@@ -1,0 +1,13 @@
+{
+  "plugins": ["prettier"],
+  "extends": ["react-app", "plugin:prettier/recommended"],
+  "rules": {
+    "prettier/prettier": [
+      "error", {
+      "endOfLine": "auto"
+    }
+  ],
+    "quotes": ["error", "single", { "avoidEscape": true }]
+  },
+  "parser": "babel-eslint"
+}
